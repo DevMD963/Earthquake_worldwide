@@ -9,14 +9,14 @@ $curl->setHeader('app-user-id','MEAA-71176A2D-FD07-4DCF-88E9-614CD0799B67');
 $curl->get('https://jrustonapps.net/app-apis/earthquakes/get-recent.php');
 $res = $curl->response;
 $re = str_replace(["<--STARTOFCONTENT-->","<--ENDOFCONTENT-->"],'',$res);
-echo $re;
-/**class database extends \YhyaSyrian\Sql\SyDb {
-    public function addData(string $result) :self {
-        $this->insert('results',['result'=>$result,'date'=>date('Y-n-d')]);
-        return $this;
-    }
-}**/
-
+$rec = json_decode($re)->earthquakes;
+foreach ($rec as $rc){
+	$rt[] = array("id"=>$rc->id,"time"=>$rc->time,"latitude"=>$rc->latitude,"longitude"=>$rc->longitude,"country"=>$rc->country,"depth"=>$rc->depth,"place"=>$rc->place,"continent"=>$rc->continent,"mag"=>$rc->mag,"location"=>$rc->location);
+	}
+	
+	$tr = json_encode($rt,128|64|256);
+	echo $tr;
+	
 if ($curl->error) {
     echo 'Error: ' . $curl->errorMessage . "\n";
     $curl->diagnose();
