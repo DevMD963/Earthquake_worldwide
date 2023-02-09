@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yhyasyrian/sydb": "v1.4.2.2",
+        "php-curl-class/php-curl-class": "^9.13"
+    }
+}

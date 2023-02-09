@@ -1,0 +1,146 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "aad0e07aef53891b11ecbd14a92687e6",
+    "packages": [
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "9.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "1fa71f639275987092c60ac117ff5c8a3771898d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/1fa71f639275987092c60ac117ff5c8a3771898d",
+                "reference": "1fa71f639275987092c60ac117ff5c8a3771898d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "*",
+                "ext-gd": "*",
+                "phpcompatibility/php-compatibility": "dev-develop",
+                "phpcsstandards/phpcsutils": "@alpha",
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*",
+                "vimeo/psalm": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "API-Client",
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http-client",
+                "http-proxy",
+                "json",
+                "php",
+                "php-curl",
+                "php-curl-library",
+                "proxy",
+                "requests",
+                "restful",
+                "web-scraper",
+                "web-scraping ",
+                "web-service",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/php-curl-class/php-curl-class/issues",
+                "source": "https://github.com/php-curl-class/php-curl-class/tree/9.13.1"
+            },
+            "time": "2023-01-16T01:29:25+00:00"
+        },
+        {
+            "name": "yhyasyrian/sydb",
+            "version": "v1.4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yhyasyrian/SyDb.git",
+                "reference": "567e1c247cf83df561e9f31bfc36f32708ef675e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yhyasyrian/SyDb/zipball/567e1c247cf83df561e9f31bfc36f32708ef675e",
+                "reference": "567e1c247cf83df561e9f31bfc36f32708ef675e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "YhyaSyrian\\Sql\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Yhya Nesb",
+                    "email": "yhya.syrian@gmail.com",
+                    "homepage": "https://yhyasyrian.xyz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library communication and dealing with databases",
+            "keywords": [
+                "database",
+                "mysql",
+                "mysqli",
+                "php",
+                "php-mysql",
+                "php-sql",
+                "sql"
+            ],
+            "support": {
+                "email": "yhya.syrian@gmail.com",
+                "issues": "https://github.com/yhyasyrian/SyDb/issues",
+                "source": "https://github.com/yhyasyrian/SyDb/tree/v1.4.2.2"
+            },
+            "time": "2022-10-15T19:48:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
