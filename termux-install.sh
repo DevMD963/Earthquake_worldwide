@@ -1,1 +1,0 @@
-pkg update && chmod 777 * && pkg upgrade && pkg install php && pkg install figlet && pkg install wget && pkg install composer && pkg install fakeroot && composer i && figlet install done

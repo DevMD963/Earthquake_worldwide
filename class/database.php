@@ -5,6 +5,6 @@ class database extends \YhyaSyrian\Sql\SyDb {
         return $this;
     }
     public function isTrue(string $result) :bool {
-        return ($this->select('results',['result'=>$result]) == 0);
+        return ($this->select('results',['result'=>$result])->num_rows == 0);
     }
 }
