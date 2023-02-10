@@ -38,5 +38,3 @@ $rt[] = array("id"=>$rc->id,"time"=>$rc->time,"latitude"=>$rc->latitude,"longitu
 	return $tr;
 }
    }
-$get = new info;
-echo $get->arabic();
